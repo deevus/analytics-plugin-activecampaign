@@ -6,7 +6,7 @@ const config: Configuration = {
   entry: "./src/index.ts",
   output: {
     path: path.resolve(__dirname, "dist"),
-    library: "analytics-plugin-tapfiliate",
+    library: "analytics-plugin-activecampaign",
     libraryTarget: "umd",
   },
   module: {
